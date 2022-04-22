@@ -1,0 +1,16 @@
+[{
+  "title": "Walk the dog",
+  "days": "Monday, Wednesday, Friday, Saturday",
+  "time": "morning"
+},
+{
+  "title": "Work out",
+  "days": "Monday, Friday, Sunday",
+  "time": "morning"
+},
+{
+  "title": "Meditate",
+  "days": "Everyday",
+  "time": "morning"
+}
+]
