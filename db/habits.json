@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Read",
+    "days": "Monday, Friday",
+    "time": "Mornings"
+  },
+  {
+    "title": "Run",
+    "days": "Monday, Wednesday, Thursday, Friday",
+    "time": "Mornings"
+  },
+  {
+    "title": "Code practice",
+    "days": "Monday, Tuesday, Wednesday,Friday",
+    "time": "night"
+    }
+]
