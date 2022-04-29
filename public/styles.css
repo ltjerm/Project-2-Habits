@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+
+header {
+  padding: 20px;
+  background-color: black;
+  color: White;
+  text-align: center;
+  font-family: 'Barlow', sans-serif; 
+  border-bottom: 5px solid black;
+}
+
+body {
+  background-color: rgb(226, 226, 226); 
+  font-family: 'Barlow', sans-serif; 
+  
+}
+.display-container {
+  text-align: center;
+}
+
+
+
+
+.signup-container {
+  width: 200px;
+  height: 500px;
+  font-size: 18px;
+  margin-top:50px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.time-container {
+  border: 2px solid black;
+  margin-left: 150px;
+  height: 100px;
+  width: 350px;
+  font-size: 18px;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+
+}
+
+.endBtn {
+  text-align: center;
+}
+
+.btn:active {
+  background-color: lime;
+}
+
+.btn:focus {
+  background-color: lime;
+}
+.new-habits {
+  padding: 100px;
+  text-align: center;
+  font-style: bolder;
+
+}
+
+.hour-btn { 
+  border-radius: 20px;
+ 
+}
+
+.hours {
+  display:none;
+  visibility: hidden;
+}
+
+

@@ -1,0 +1,55 @@
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<body> 
+ <header class="header">
+    <h1>Lets create a new habit</h1>
+ </header>   
+
+<form class="form" action="/add" method="POST">
+    <div class="new-habits">
+        <label class="title font" for="title">Habit: </label>
+        <input type="text" class="input" name="title" id="title" /> 
+        <br />
+        <br />
+
+        <label class="day" for="day"> How many days per week?: </label>
+        <input type="text" class="days" name="day" />
+        <button type="button" class="days-btn" name="day" onclick="sunday()">S</button>
+        <button type="button" class="days-btn" name="day" onclick="monday()">M</button> 
+        <button type="button" class="days-btn" name="day" onclick="tuesday()">T</button>
+        <button type="button" class="days-btn" name="day"  onclick="wednesday()">W</button>
+        <button type="button" class="days-btn" name="day" onclick="thursday()">T</button> 
+        <button type="button" class="days-btn" name="day" onclick="friday()">F</button>
+        <button type="button" class="days-btn" name="day" onclick="saturday()">S</button>
+        <br />
+        <br />
+
+        <label class="hour font" for="hour"> Hour during the day: </label>
+        <input type="text" class="hours" name="hour" />
+        <button type="button" class="hour-btn  btn morning" name="hour" onclick="morningButton()" >Morning</button>
+        <button type="button" class="hour-btn  btn afternoon" name="hour" onclick="afternoonButton()">Afternoon</button> 
+        <button type="button" class="hour-btn  btn evening" name="hour" onclick="eveningButton()">Evening</button>
+       
+    </div>
+
+
+    <div class="endBtn">
+        <button class="btn submit"  type="submit" >Submit Habit</button>
+        <br />
+        <a  class='btn cancel' href="/">Cancel</a>
+    </div>
+    
+    
+
+
+    
+   
+</form>
+
+
+
+
+
+<script src="app.js"></script>
+
+</body>
