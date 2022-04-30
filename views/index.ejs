@@ -1,29 +1,61 @@
-<link rel="stylesheet" type="text/css" href="styles.css" />
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Habits</title>
+</head>
 <body>
-<header>
-    <h1>Better You </h1>
-    <h4>Habit Tracker</h4>
-    <h3>The Ultimate habit tracker to change your life </h3>
-</header>
+    <header>
+        <h1>Better You </h1>
+        <h4>Habit Tracker</h4>
+        <h5>The Ultimate habit tracker to change your life </h5>
+    </header>
+    <div class="motive">
+      <h2>DAY ONE OR ONE DAY </h2> <h2>STARTS WITH YOU</h2>
+    </div>
+    
 
-<div class="container"> 
-    <div class="signup-container">
-        <h3>Lets start your journey today</h3>
-        <form name="new" action="/new" method="GET">
-            <!-- username: <input name="username" id="username"/> <br />   
-            password: <input type="password" name="password" id="password"/> <br /> -->
-            <br />
-            <input type="submit" value="SIGN UP TODAY" class="btn btn-primary btn-lg" action="/new"></input>
-
+    <div class="container"> 
+        <div class="signup-container">
+            <h3>Lets start your journey today</h3>
+            <form name="new" action="/new" method="GET">
+                <!-- username: <input name="username" id="username"/> <br />   
+                password: <input type="password" name="password" id="password"/> <br /> -->
+                <br />
+                <input type="submit" value="SIGN UP TODAY" class="btn btn-primary btn-lg" action="/new"></input>
          </form>
-    </div>
+        </div>
+       
+     
+    
+    
+       
+    </div> 
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="running" >
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1592188657297-c6473609e988?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHJlYWRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="reading" >
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d29yayUyMG91dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" class="d-block w-100" alt="workout" >
+          </div>
+        </div>
+      </div>
 
 
-    <div class="inspo">
-        <img src="/Users/jeremyhernandez/Desktop/GeneralAssembly/projects/project2-habits/public/running.jpg" alt="running">
-    </div>
-</div>
+
+
+    </body>
+
+      </html>
 
 
 
@@ -31,5 +63,7 @@
 
 
 
-</body>
+
+
+
 

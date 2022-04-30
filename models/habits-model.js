@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('../db/connection')
 const habitSchema = new mongoose.Schema({
   title: {type: String},
-  days: {type: String},
+  day: [{type: String}],
   hour: {type: String},
 })
 

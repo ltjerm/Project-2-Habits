@@ -1,5 +1,6 @@
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <body> 
  <header class="header">
     <h1>Lets create a new habit</h1>
@@ -12,23 +13,23 @@
         <br />
         <br />
 
-        <label class="day" for="day"> How many days per week?: </label>
-        <input type="text" class="days" name="day" />
-        <button type="button" class="days-btn" name="day" onclick="sunday()">S</button>
-        <button type="button" class="days-btn" name="day" onclick="monday()">M</button> 
-        <button type="button" class="days-btn" name="day" onclick="tuesday()">T</button>
-        <button type="button" class="days-btn" name="day"  onclick="wednesday()">W</button>
-        <button type="button" class="days-btn" name="day" onclick="thursday()">T</button> 
-        <button type="button" class="days-btn" name="day" onclick="friday()">F</button>
-        <button type="button" class="days-btn" name="day" onclick="saturday()">S</button>
+        <label class="day" for="day"> Times per week: </label>
+        <input type="text" class="days" namn="day" />
+        <input type="checkbox" class="days-btn" name="day" value= "1">1</input>
+        <input type="checkbox" class="days-btn" name="day" value="2">2</input> 
+        <input type="checkbox" class="days-btn" name="day" value="3">3</input>
+        <input type="checkbox" class="days-btn" name="day" value="4">4</input>
+        <input type="checkbox" class="days-btn" name="day" value="5">5</input> 
+        <input type="checkbox" class="days-btn" name="day" value="6">6</input>
+        <input type="checkbox" class="days-btn" name="day" value="7">7</input>
         <br />
         <br />
 
         <label class="hour font" for="hour"> Hour during the day: </label>
         <input type="text" class="hours" name="hour" />
-        <button type="button" class="hour-btn  btn morning" name="hour" onclick="morningButton()" >Morning</button>
-        <button type="button" class="hour-btn  btn afternoon" name="hour" onclick="afternoonButton()">Afternoon</button> 
-        <button type="button" class="hour-btn  btn evening" name="hour" onclick="eveningButton()">Evening</button>
+        <button type="button" class="hour-btn btn" name="hour" onclick="morning()" >Morning</button>
+        <button type="button" class="hour-btn btn" name="hour" onclick="afternoon()">Afternoon</button> 
+        <button type="button" class="hour-btn btn" name="hour" onclick="evening()">Evening</button>
        
     </div>
 
